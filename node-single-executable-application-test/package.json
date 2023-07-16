@@ -1,0 +1,13 @@
+{
+  "name": "node-single-executable-application-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-sea-config sea-config.json ",
+    "test" : "sign /fd SHA256 10000"
+  },
+  "dependencies": {
+    "chalk": "4.1.0"
+  }
+}

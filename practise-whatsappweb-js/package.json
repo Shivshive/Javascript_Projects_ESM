@@ -1,0 +1,13 @@
+{
+  "name": "practise-whatsappweb-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "git+https://github.com/pedroslopez/whatsapp-web.js#fix-buttons-list"
+  }
+}

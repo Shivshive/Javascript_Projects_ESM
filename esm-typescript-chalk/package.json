@@ -1,0 +1,16 @@
+{
+  "name": "esm-typescript-chalk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm index.ts --no-cache"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.3",
+    "chalk": "^5.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

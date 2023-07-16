@@ -1,0 +1,23 @@
+{
+  "name": "esm-cucumberjs-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js -p default",
+    "esmtest": "SET NODE_OPTIONS=--loader ts-node/esm --no-warnings --experimental-specifier-resolution=node && cucumber-js -p default"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.1.0",
+    "@types/assert": "^1.5.6",
+    "@types/cucumber": "^7.0.0",
+    "@types/node": "^18.15.11",
+    "assert": "^2.0.0",
+    "chalk": "^5.2.0",
+    "cross-env": "^7.0.3",
+    "cucumber-html-report-generator": "^1.0.33",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}

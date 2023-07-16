@@ -1,0 +1,59 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Jest",
+      "program": "${workspaceFolder}\\esm-puppeteer-jest\\node_modules\\jest\\bin\\jest.js",
+      "args": [
+        "--config=${workspaceFolder}\\esm-puppeteer-jest\\jest.config.withouttransform.js",
+        "--JEST_PUPPETEER_CONFIG=${workspaceFolder}\\esm-puppeteer-jest\\jest-puppeteer.config.js",
+        "--verbose=true",
+        "--runInBand"
+      ],
+      "env": {
+        "NODE_OPTIONS":"--experimental-vm-modules"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "trace": true
+    },
+    {
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/cjs-whatsapp/index.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "name": "Launch email",
+      "program": "${workspaceFolder}/nodejs-nodemailer-express/index.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "esm-puppeteer-jest",
+      "program": "${workspaceFolder}\\esm-puppeteer-jest\\node_modules\\jest\\bin\\jest.js",
+      "args": [
+        "--JEST_PUPPETEER_CONFIG=${workspaceFolder}\\esm-puppeteer-jest\\jest-puppeteer.config.js",
+        "--config=${workspaceFolder}\\esm-puppeteer-jest\\jest.config.withouttransform.js",
+        "--verbose=true",
+        "--runInBand"
+      ],
+      "env": {
+        "JEST_PUPPETEER_CONFIG":"esm-puppeteer-jest\\jest-puppeteer.config.js",
+        "NODE_OPTIONS":"--experimental-vm-modules"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "trace": true
+    }
+  ]
+}

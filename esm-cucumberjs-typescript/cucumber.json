@@ -1,0 +1,265 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sample-cucumber-js-typescript-scenario;scenario-number-1",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "scenario number 1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 918799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "navigate to 'https://www.amazon.in'",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\support\\general-stepdef.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 306399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters username as \"x1y1@abc.com\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\login-stepdef.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters passowrd as \"1234\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\login-stepdef.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\login-stepdef.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify user logged in",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\support\\general-stepdef.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sample-cucumber-js-typescript-scenario;scenario-number-1",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "scenario number 1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 246999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "navigate to 'https://www.amazon.in'",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\support\\general-stepdef.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters username as \"x1y2@abc.com\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\login-stepdef.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters passowrd as \"1235\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\login-stepdef.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\login-stepdef.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify user logged in",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\support\\general-stepdef.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sample-cucumber-js-typescript-scenario;scenario-number-1",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "scenario number 1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 229400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "navigate to 'https://www.amazon.in'",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\support\\general-stepdef.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 184600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters username as \"x1y3@abc.com\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\login-stepdef.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters passowrd as \"1236\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\login-stepdef.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 328399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\login-stepdef.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify user logged in",
+            "match": {
+              "location": "file:\\C:\\Users\\Chandra-Kautilya\\Documents\\VSCODE\\Javascript_Projects_ESM\\esm-cucumberjs-typescript\\steps\\support\\general-stepdef.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-cucumber-js-typescript-scenario",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "sample cucumber-js typescript scenario",
+    "tags": [],
+    "uri": "features\\sample.feature"
+  }
+]

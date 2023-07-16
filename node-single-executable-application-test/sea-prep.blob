@@ -1,0 +1,4 @@
+ ÚCconst timeout = process.env.timeout||5000;
+setTimeout(()=>{
+    console.log(`hello world`);
+},timeout);
